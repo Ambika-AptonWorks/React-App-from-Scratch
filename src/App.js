@@ -1,16 +1,9 @@
 import React from "react";
-import Button from '@mui/material/Button';
-
+import Header from "./Components/Header";
 
 const App = () => {
-    const greetHandler=()=>{
-        alert("Hello there,welcome!!!")
-    }
     return <div>
-        <center>
-            <h1>Hello, World!</h1>
-            <Button variant="contained" color="secondary" onClick={greetHandler}>Click here!!</Button>
-        </center>
+        <Header/> <hr/>
     </div>
 
 };

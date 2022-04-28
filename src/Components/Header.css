@@ -1,0 +1,36 @@
+.header{
+    width:100%;
+    height:auto;
+}
+.search-input{
+    display: flex;
+    border: 1px solid gray;
+    margin-left: 130px;
+    border-radius: 20px;
+    padding:5px;
+    margin-top: 10px;
+    width:260px;
+}
+input{
+    outline: none;
+    border-color: transparent;
+    margin-left: 50px;
+}
+.form{
+    margin-left: 30px;
+}
+.menu:hover{
+    background-color: gray;
+    outline: none;
+    color:green;
+}
+.tools{
+    display: flex;
+}
+.chat{
+    margin-left: 40px;
+}
+.Admin{
+    margin-left: 10px;
+}
+
