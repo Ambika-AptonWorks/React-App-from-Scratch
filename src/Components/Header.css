@@ -19,18 +19,33 @@ input{
 .form{
     margin-left: 30px;
 }
-.menu:hover{
-    background-color: gray;
-    outline: none;
-    color:green;
-}
 .tools{
-    display: flex;
+    display: flex;   
+}
+MenuItem:hover{
+    background-color: rgb(120, 154, 184);
+    color:black;
+    cursor:pointer;
+
 }
 .chat{
     margin-left: 40px;
 }
 .Admin{
     margin-left: 10px;
+} 
+
+option{
+    text-align: center;
+    text-decoration: none;
+
 }
+option:hover{
+    background-color: rgb(120, 154, 184);
+    color:black;
+    cursor:pointer;
+    height:30px;
+    text-align: center;
+}
+
 

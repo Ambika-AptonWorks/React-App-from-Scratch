@@ -1,0 +1,26 @@
+.cont{
+    width:300px;
+    height:500px;
+    margin-top: 30px;
+    overflow-y: scroll;
+}
+.Main-icons{
+    list-style-type:none;
+    margin-left: 0px;
+    padding:4px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h5{
+    color:gray;
+    margin-left: 30px;
+    margin-top: 0px;
+}
+.icons1{
+    margin-top: 2px;
+}
+ul li:hover{
+  background-color: bisque;
+  width:100%;
+}
