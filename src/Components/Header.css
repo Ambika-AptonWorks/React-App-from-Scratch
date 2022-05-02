@@ -1,51 +1,84 @@
+*{
+    margin: 0px;
+   
+}
 .header{
     width:100%;
-    height:auto;
+    height:65px;
+    background-image:linear-gradient(to right, #ff9800,#e65100);
+    display:flex;
+}
+.text{
+    color:white;
 }
 .search-input{
     display: flex;
     border: 1px solid gray;
-    margin-left: 130px;
+    margin-left: 100px;
     border-radius: 20px;
-    padding:5px;
+    padding:0px;
     margin-top: 10px;
-    width:260px;
+    width:270px;
+    margin-bottom: 10px;
+    background-color:#d78a60;
+    outline: none;
+    border-color: transparent;
+
 }
 input{
     outline: none;
     border-color: transparent;
     margin-left: 50px;
+    background-color: #d78a60;
 }
-.form{
-    margin-left: 30px;
+input[type="text"]::-webkit-input-placeholder {
+    color:white;
+  }
+.searchIcon{
+    margin-top: 10px;
+    color:white;
 }
-.tools{
-    display: flex;   
+em{
+    color: white;
 }
-MenuItem:hover{
-    background-color: rgb(120, 154, 184);
+em:hover{
     color:black;
-    cursor:pointer;
-
 }
-.chat{
-    margin-left: 40px;
+.menu:hover{
+    color:black;
 }
-.Admin{
-    margin-left: 10px;
-} 
-
+img{
+    margin-top:10px;
+}
+.tools  :hover{
+ background-color: gray;
+ color:white;
+ 
+}
+.right-Icons{
+    display:flex;
+    align-items: center;
+   
+}
+select{
+    background-color: #e65100;
+    color:white;
+    border-color:transparent;
+    margin-left: 100px;
+    padding:20px;
+}
 option{
-    text-align: center;
-    text-decoration: none;
-
-}
-option:hover{
-    background-color: rgb(120, 154, 184);
+   
+    background-color: white;
     color:black;
-    cursor:pointer;
-    height:30px;
-    text-align: center;
+    
 }
+.select1{
+    margin-left: 100px;
+   
+}
+
+
+
 
 

@@ -1,26 +1,28 @@
+
 .cont{
-    width:300px;
-    height:500px;
-    margin-top: 30px;
+    width:250px;
+    height: 33.46rem;
     overflow-y: scroll;
+    background-color: rgb(50, 50, 69);
 }
 .Main-icons{
     list-style-type:none;
     margin-left: 0px;
     padding:4px;
-    margin-top: 0px;
+    margin-left:20px;
     margin-bottom: 0px;
     font-family: Arial, Helvetica, sans-serif;
+    color:gray;
 }
 h5{
-    color:gray;
-    margin-left: 30px;
+    color:rgb(193, 183, 183);
+    margin-left: 0px;
     margin-top: 0px;
 }
 .icons1{
     margin-top: 2px;
 }
 ul li:hover{
-  background-color: bisque;
+ color:white;
   width:100%;
 }
